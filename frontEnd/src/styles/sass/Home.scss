@@ -1,0 +1,160 @@
+@import "defaultStyles.scss";
+.app-brand {
+  width: 80%;
+  height: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: $container-padding-s;
+}
+a {
+  text-decoration: none !important;
+  list-style: none !important;
+}
+.home-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-logo {
+  width: 1.5rem;
+  height: auto;
+  margin-right: $margin-xs;
+}
+
+.app-title {
+  font-size: 1rem;
+  color: $text-white;
+}
+
+.tool-menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+  
+
+  a {
+    width: 18rem;
+    height: 27.8rem;
+    display: block;
+    margin: 6rem 3rem;
+    box-sizing: content-box;
+    &:first-child {
+      .tool-menu-title {
+      color:
+      #9dabf1;
+       
+      }
+      .tool-menu-button {
+        background: #9dabf1;
+        border: none;
+       
+         }
+     
+    }
+    &:nth-child(2){
+      
+      .tool-menu-title {
+        color: #a0c1c2
+         
+        }
+        .tool-menu-button {
+          background: #a0c1c2;
+          border: none;
+         
+           }
+     
+    }
+    &:nth-child(3){
+      .tool-menu-title {
+        color: #80d0f8
+         
+
+        }
+        .tool-menu-button {
+       background: #80d0f8;
+       border: none;
+      
+        }
+     
+    }
+    
+  }
+}
+
+.tool {
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 110%;
+  width: 110%;
+background-position: center;
+  box-sizing: border-box;
+  padding-top: 12rem;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+
+  
+}
+ .tool-menu-wrapTitle{
+     margin-top: 2rem;
+ }
+
+.tool-menu-description {
+ 
+  max-width: 300px;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.full-screen-message {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 300px;
+  padding-left: 2rem;
+}
+
+.error-title {
+  margin-bottom: 2rem;
+  color: $text-white;
+}
+
+.nothing-allowed-description {
+  width: 90%;
+  line-height: 1.5rem;
+  color: $text-white;
+}
+
+.tool-menu-button {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.tool-menu-button {
+  padding: $container-padding-xs $container-padding-s;
+  border-radius: 0.2rem;
+  cursor: $cursor-clickable;
+  margin-bottom: $margin-s;
+  margin-left: 9rem;
+}
+
+.top-corner {
+  width: 20%;
+  height: 1.2rem;
+  position:absolute;
+  top:10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  padding: $container-padding-s;
+} 

@@ -1,0 +1,565 @@
+.app-brand {
+  width: 80%;
+  height: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.home-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-logo {
+  width: 1.5rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.app-title {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.tool-menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+}
+.tool-menu-container a {
+  width: 18rem;
+  height: 27.8rem;
+  display: block;
+  margin: 6rem 3rem;
+  box-sizing: content-box;
+}
+.tool-menu-container a:first-child .tool-menu-title {
+  color: #9dabf1;
+}
+.tool-menu-container a:first-child .tool-menu-button {
+  background: #9dabf1;
+  border: none;
+}
+.tool-menu-container a:nth-child(2) .tool-menu-title {
+  color: #a0c1c2;
+}
+.tool-menu-container a:nth-child(2) .tool-menu-button {
+  background: #a0c1c2;
+  border: none;
+}
+.tool-menu-container a:nth-child(3) .tool-menu-title {
+  color: #80d0f8;
+}
+.tool-menu-container a:nth-child(3) .tool-menu-button {
+  background: #80d0f8;
+  border: none;
+}
+
+.tool {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 110%;
+  width: 110%;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.tool-menu-wrapTitle {
+  margin-top: 2rem;
+}
+
+.tool-menu-description {
+  max-width: 300px;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.full-screen-message {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 300px;
+  padding-left: 2rem;
+}
+
+.error-title {
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.nothing-allowed-description {
+  width: 90%;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+
+.tool-menu-button {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.tool-menu-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 9rem;
+}
+
+.top-corner {
+  width: 20%;
+  height: 1.2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  padding: 1rem;
+}
+
+.sciFiLightVerbal {
+  background: rgba(230, 0, 111, 0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.5);
+  box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.5);
+  border: 1px solid rgba(255, 128, 189, 0.25);
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(255, 0, 123, 0.95);
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.sciFiLightVerbal:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  border: 1px solid rgba(255, 128, 189, 0.75);
+}
+.sciFiLightVerbal:active {
+  background: rgba(230, 0, 111, 0.9);
+}
+
+.sciFiLightEmotions {
+  background: rgba(230, 0, 226, 0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.5);
+  box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.5);
+  border: 1px solid rgba(255, 128, 253, 0.25);
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(255, 0, 251, 0.95);
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.sciFiLightEmotions:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  border: 1px solid rgba(255, 128, 253, 0.75);
+}
+.sciFiLightEmotions:active {
+  background: rgba(230, 0, 226, 0.9);
+}
+
+.sciFiLightGesture {
+  background: rgba(0, 111, 230, 0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.5);
+  box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.5);
+  border: 1px solid rgba(128, 189, 255, 0.25);
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.95);
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.sciFiLightGesture:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  border: 1px solid rgba(128, 189, 255, 0.75);
+}
+.sciFiLightGesture:active {
+  background: rgba(0, 111, 230, 0.9);
+}
+
+.sciFiLightTriggers {
+  background: rgba(0, 230, 122, 0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.5);
+  box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.5);
+  border: 1px solid rgba(128, 255, 196, 0.25);
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.95);
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.sciFiLightTriggers:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  border: 1px solid rgba(128, 255, 196, 0.75);
+}
+.sciFiLightTriggers:active {
+  background: rgba(0, 230, 122, 0.9);
+}
+
+.titleScifi {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.95);
+}
+
+.titlesciFiLightVerbal {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(255, 0, 123, 0.95);
+}
+
+.titlesciFiLightGesture {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.95);
+}
+
+.titlesciFiLightEmotions {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(255, 0, 251, 0.95);
+}
+
+.btnBack {
+  background: rgba(229, 230, 0, 0.9) !important;
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.75);
+  border: 1px solid rgba(255, 255, 128, 0.75);
+  cursor: pointer !important;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.btnAllsciFiLight {
+  background: rgba(165, 165, 1, 0.9);
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.5);
+  box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.5);
+  border: 1px solid rgba(255, 255, 128, 0.25);
+  color: black;
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.95);
+  text-transform: uppercase;
+  cursor: not-allowed;
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.btnAllsciFiLight:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 255, 0, 0.75);
+  border: 1px solid rgba(255, 255, 128, 0.75);
+}
+.btnAllsciFiLight:active {
+  background: rgba(229, 230, 0, 0.9);
+}
+
+.btnDeploy {
+  background: rgba(26, 255, 255, 0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 178, 255, 0.5);
+  box-shadow: 0px 0px 12px rgba(0, 178, 255, 0.5);
+  border: 1px solid rgba(128, 217, 255, 0.25);
+  color: black;
+  text-shadow: 0 0 10px rgba(0, 178, 255, 0.95);
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+.btnDeploy:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 178, 255, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 178, 255, 0.75);
+  border: 1px solid rgba(128, 217, 255, 0.75);
+}
+.btnDeploy:active {
+  background: rgba(26, 186, 255, 0.68);
+}
+
+.searchBoxsciFiLightVerbal {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(255, 0, 123, 0.3);
+  /* text-shadow: none; */
+  border: 1px solid rgba(255, 128, 189, 0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.25);
+  box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.25);
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 0, 123, 0.5);
+  outline: none;
+}
+.searchBoxsciFiLightVerbal:nth-child(2) {
+  margin-top: 10px;
+}
+.searchBoxsciFiLightVerbal:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  border: 1px solid rgba(255, 128, 189, 0.75);
+}
+.searchBoxsciFiLightVerbal::focus {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 123, 0.75);
+  border: 1px solid rgba(255, 128, 189, 0.75);
+}
+.searchBoxsciFiLightVerbal::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 10px rgba(255, 0, 123, 0.95);
+}
+
+.searchBoxsciFiLightEmotions {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(255, 0, 251, 0.3);
+  /* text-shadow: none; */
+  border: 1px solid rgba(255, 128, 253, 0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.25);
+  box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.25);
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 0, 251, 0.5);
+  outline: none;
+}
+.searchBoxsciFiLightEmotions:nth-child(2) {
+  margin-top: 10px;
+}
+.searchBoxsciFiLightEmotions::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(255, 0, 251, 0.3);
+}
+.searchBoxsciFiLightEmotions:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  border: 1px solid rgba(255, 128, 253, 0.75);
+}
+.searchBoxsciFiLightEmotions:focus {
+  -webkit-box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  box-shadow: 0px 0px 12px rgba(255, 0, 251, 0.75);
+  border: 1px solid rgba(255, 128, 253, 0.75);
+}
+
+.searchBoxsciFiLightGesture {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(0, 123, 255, 0.3);
+  /* text-shadow: none; */
+  border: 1px solid rgba(128, 189, 255, 0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.25);
+  box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.25);
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 0, 251, 0.5);
+  outline: none;
+}
+.searchBoxsciFiLightGesture:nth-child(2) {
+  margin-top: 10px;
+}
+.searchBoxsciFiLightGesture:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  border: 1px solid rgba(128, 189, 255, 0.75);
+}
+.searchBoxsciFiLightGesture:focus {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 123, 255, 0.75);
+  border: 1px solid rgba(128, 189, 255, 0.75);
+}
+.searchBoxsciFiLightGesture::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(0, 123, 255, 0.3);
+}
+
+.searchBox {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+  /* text-shadow: none; */
+  border: 1px solid rgba(128, 255, 196, 0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.25);
+  box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.25);
+  padding: 8px 10px;
+  text-shadow: 0 0 10px rgba(255, 0, 251, 0.5);
+  outline: none;
+}
+.searchBox:hover {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  border: 1px solid rgba(128, 255, 196, 0.75);
+}
+.searchBox:focus {
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  box-shadow: 0px 0px 12px rgba(0, 255, 136, 0.75);
+  border: 1px solid rgba(128, 255, 196, 0.75);
+}
+.searchBox::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 12px rgba(0, 255, 136, 0.3);
+}
+
+.recipeNameInpt {
+  width: 30%;
+}
+
+.routesContainer {
+  display: flex;
+}
+
+.wrapHomeContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: wheat;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.imageDiv {
+  width: 50%;
+  height: 100vh;
+  background-size: fill;
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapForm {
+  width: 50%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapForm .formTitle {
+  text-align: left;
+  width: 80%;
+}
+.wrapForm .wrapButtonsForm {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.wrapForm .formContainer {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 80%;
+}
+.wrapForm .formContainer .minorField {
+  width: 40px;
+}
+.wrapForm .formContainer .littleField {
+  width: 70px;
+}
+.wrapForm .formContainer .largerField {
+  width: 70%;
+}
+.wrapForm .formContainer .wrapItemForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.wrapResult {
+  color: white;
+}
+.wrapResult .resultContainer {
+  overflow-x: hidden;
+  max-height: 50%;
+  max-width: 90%;
+}
+.wrapResult .resultContainer .resultItem {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-right: 50px;
+}
+.wrapResult .resultContainer .resultItem span {
+  width: 100%;
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  /* Don't forget this one */
+  text-overflow: ellipsis;
+}
+
+.resultTItles {
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding: 15px;
+  max-height: 50%;
+  max-width: 77.3%;
+  display: flex;
+  justify-content: space-around;
+}
+.resultTItles span {
+  text-align: center;
+  width: 100%;
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  /* Don't forget this one */
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=style.css.map */

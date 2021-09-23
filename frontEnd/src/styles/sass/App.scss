@@ -1,0 +1,147 @@
+ @import './Home.scss';
+ @import './sciFiLight.scss';
+ .routesContainer{
+    display:flex
+ }
+
+ .wrapHomeContainer{
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+   color: wheat;
+ }
+
+ html{
+   overflow: hidden;
+   
+ }
+
+ 
+ body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+ 
+ }
+
+ .imageDiv{
+ 
+   
+   width: 50%;
+   height: 100vh;
+   background-size: fill;
+   
+   
+ }
+
+button {
+  cursor: pointer;
+}
+ // form 
+ .wrapForm{
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .formTitle{
+      text-align: left;
+      width: 80%;
+    }
+    .wrapButtonsForm{
+      margin-top: 10%;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .formContainer{
+
+ 
+      margin-top: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 80%;
+
+     .minorField{
+       width: 40px;
+     }
+     .littleField{
+      width: 70px;
+    }
+    .largerField{
+      width: 70%;
+    }
+    .wrapItemForm{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+       justify-content: space-between;
+    
+    }
+    }
+ }
+
+ // reuslt
+
+ .hide{
+   visibility: hidden;
+ }
+
+ .wrapResult{
+   color: white;
+
+   .resultContainer{
+     overflow-x: hidden;
+     max-height: 50%;
+   
+      max-width: 90%;
+    
+
+    .resultItem{
+      background-color: white;
+      color: black;
+      padding: 15px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 5px;
+    //  margin-right: 50px;
+      padding-right: 50px;
+      span{
+        width: 100%;
+        max-width: 100px;
+        overflow: hidden;
+      white-space: nowrap; /* Don't forget this one */
+      text-overflow: ellipsis;
+   
+      }
+    }
+   }
+ }
+ .resultTItles{
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding: 15px;
+ 
+ max-height: 50%;
+ max-width: 77.3%;
+  display: flex;
+  justify-content: space-around;
+  span{
+    text-align: center;
+    width: 100%;
+    max-width: 100px;
+    overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+  
+  }
+}

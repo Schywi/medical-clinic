@@ -1,0 +1,359 @@
+.sciFiLightVerbal{
+  
+  background: rgba(230,0,111,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(255,0,123,0.5);
+  box-shadow: 0px 0px 12px rgba(255,0,123,0.5);
+  border: 1px solid rgba(255,128,189,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(255,0,123,0.95);
+  
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+
+  &:hover {
+      -webkit-box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+      box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+      border: 1px solid rgba(255,128,189,0.75);
+    }
+  &:active {
+      background: rgba(230,0,111,0.9);
+    }
+}
+
+ 
+.sciFiLightEmotions{ 
+  
+   background: rgba(230,0,226,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(255,0,251,0.5);
+  box-shadow: 0px 0px 12px rgba(255,0,251,0.5);
+  border: 1px solid rgba(255,128,253,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(255,0,251,0.95);
+  
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+
+  &:hover {
+      -webkit-box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+      box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+      border: 1px solid rgba(255,128,253,0.75);
+    }
+  &:active {
+      background: rgba(230,0,226,0.9);
+    }
+}
+
+.sciFiLightGesture{
+  
+  background: rgba(0,111,230,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,123,255,0.5);
+  box-shadow: 0px 0px 12px rgba(0,123,255,0.5);
+  border: 1px solid rgba(128,189,255,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,123,255,0.95);
+  
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  &:hover {
+      -webkit-box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+      box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+      border: 1px solid rgba(128,189,255,0.75);
+    }
+  &:active {
+      background: rgba(0,111,230,0.9);
+    }
+    
+}
+
+.sciFiLightTriggers{
+  
+  background: rgba(0,230,122,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,136,0.5);
+  box-shadow: 0px 0px 12px rgba(0,255,136,0.5);
+  border: 1px solid rgba(128,255,196,0.25);
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,136,0.95);
+  
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  &:hover {
+      -webkit-box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+      box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+      border: 1px solid rgba(128,255,196,0.75);
+    }
+  &:active {
+      background: rgba(0,230,122,0.9);
+    }
+}
+
+ 
+
+.titleScifi{
+  
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,255,136,0.95);
+ 
+}
+.titlesciFiLightVerbal{
+  
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(255,0,123,0.95);
+}
+
+.titlesciFiLightGesture{
+  
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(0,123,255,0.95);
+ 
+}
+
+.titlesciFiLightEmotions{
+  
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 10px rgba(255,0,251,0.95);
+ 
+}
+
+
+
+ .btnBack{
+  background: rgba(229,230,0,0.9) !important;
+  
+  -webkit-box-shadow: 0px 0px 12px rgba(255,255,0,0.75);
+  box-shadow: 0px 0px 12px rgba(255,255,0,0.75);
+  border: 1px solid rgba(255,255,128,0.75);
+  cursor: pointer !important;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.btnAllsciFiLight {
+  background: rgba(165, 165, 1, 0.9) ;
+  -webkit-box-shadow: 0px 0px 12px rgba(255,255,0,0.5);
+  box-shadow: 0px 0px 12px rgba(255,255,0,0.5);
+  border: 1px solid rgba(255,255,128,0.25);
+  color: black;
+  text-shadow: 0 0 10px rgba(255,255,0,0.95);
+  text-transform: uppercase;
+  cursor:not-allowed;
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 12px rgba(255,255,0,0.75);
+    box-shadow: 0px 0px 12px rgba(255,255,0,0.75);
+    border: 1px solid rgba(255,255,128,0.75);
+    }
+
+    &:active {
+      background: rgba(229,230,0,0.9);
+    }
+}
+
+
+
+.btnDeploy{
+  background: rgba(26,255,255,0.68);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,178,255,0.5);
+  box-shadow: 0px 0px 12px rgba(0,178,255,0.5);
+  border: 1px solid rgba(128,217,255,0.25);
+  color: black;
+  text-shadow: 0 0 10px rgba(0,178,255,0.95);
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+
+  &:hover{
+    -webkit-box-shadow: 0px 0px 12px rgba(0,178,255,0.75);
+    box-shadow: 0px 0px 12px rgba(0,178,255,0.75);
+    border: 1px solid rgba(128,217,255,0.75);
+  }
+  &:active{
+    background: rgba(26,186,255,0.68);
+  }
+}
+ 
+ 
+
+
+
+
+
+.searchBoxsciFiLightVerbal {
+  &:nth-child(2){
+     margin-top:10px;
+  }
+  
+  background-color: transparent;
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 12px rgba(255,0,123,0.3);
+/* text-shadow: none; */
+  border: 1px solid rgba(255,128,189,0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(255,0,123,0.25);
+  box-shadow: 0px 0px 12px rgba(255,0,123,0.25);
+
+  width: 100%;
+  padding: 8px  10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255,0,123,0.5);
+  outline: none;
+
+  &:hover {
+    -webkit-box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+    box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+    border: 1px solid rgba(255,128,189,0.75);
+  }
+  &::focus {
+    -webkit-box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+    box-shadow: 0px 0px 12px rgba(255,0,123,0.75);
+    border: 1px solid rgba(255,128,189,0.75);
+  }
+&::placeholder{
+color: rgba(255,255,255,0.75);
+text-shadow: 0 0 10px rgba(255,0,123,0.95);
+
+}
+
+}
+
+
+.searchBoxsciFiLightEmotions {
+  &:nth-child(2){
+    margin-top:10px;
+ }
+     
+
+  background-color: transparent;
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 12px rgba(255,0,251,0.3);
+/* text-shadow: none; */
+  border: 1px solid rgba(255,128,253,0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(255,0,251,0.25);
+  box-shadow: 0px 0px 12px rgba(255,0,251,0.25);
+  width: 100%;
+  padding: 8px  10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255,0,251,0.5);
+  outline: none;
+  &::placeholder{
+    
+    color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 12px rgba(255,0,251,0.3);
+  }
+  &:hover {
+    -webkit-box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+    box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+    border: 1px solid rgba(255,128,253,0.75);
+  }
+  &:focus {
+    -webkit-box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+    box-shadow: 0px 0px 12px rgba(255,0,251,0.75);
+    border: 1px solid rgba(255,128,253,0.75);
+  }
+}
+
+
+
+
+.searchBoxsciFiLightGesture {
+  &:nth-child(2){
+    margin-top:10px;
+ }
+     
+ 
+  background-color: transparent;
+  color: rgba(255,255,255,0.75);
+text-shadow: 0 0 12px rgba(0,123,255,0.3);
+/* text-shadow: none; */
+border: 1px solid rgba(128,189,255,0.5);
+-webkit-box-shadow: 0px 0px 12px rgba(0,123,255,0.25);
+box-shadow: 0px 0px 12px rgba(0,123,255,0.25);
+
+
+  width: 100%;
+  padding: 8px  10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255,0,251,0.5);
+  outline: none;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+    box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+    border: 1px solid rgba(128,189,255,0.75);
+  }
+  &:focus {
+    -webkit-box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+    box-shadow: 0px 0px 12px rgba(0,123,255,0.75);
+    border: 1px solid rgba(128,189,255,0.75);
+  }
+  &::placeholder{
+    color: rgba(255,255,255,0.75);
+text-shadow: 0 0 12px rgba(0,123,255,0.3);
+  }
+}
+
+
+
+.searchBox {
+ 
+     
+ 
+  background-color: transparent;
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0 0 12px rgba(0,255,136,0.3);
+/* text-shadow: none; */
+  border: 1px solid rgba(128,255,196,0.5);
+  -webkit-box-shadow: 0px 0px 12px rgba(0,255,136,0.25);
+  box-shadow: 0px 0px 12px rgba(0,255,136,0.25);
+
+
+  
+  padding: 8px  10px;
+ 
+  text-shadow: 0 0 10px rgba(255,0,251,0.5);
+  outline: none;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+border: 1px solid rgba(128,255,196,0.75);
+  }
+  &:focus {
+    -webkit-box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+box-shadow: 0px 0px 12px rgba(0,255,136,0.75);
+border: 1px solid rgba(128,255,196,0.75);
+  }
+  &::placeholder{
+    color: rgba(255,255,255,0.75);
+    text-shadow: 0 0 12px rgba(0,255,136,0.3);
+  }
+}
+
+
+ 
+
+.recipeNameInpt {
+width: 30%;
+}
